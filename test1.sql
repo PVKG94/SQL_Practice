@@ -267,6 +267,6 @@ book_id int primary key,
 title varchar(100)
 );
 
-alter table authors add constraint pk_author_title primary key(author_id
+alter table authors add constraint pk_author_title primary key(author_id)
 update authors set author_id=null
 
